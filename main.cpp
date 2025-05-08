@@ -40,6 +40,9 @@ int main() {
 		break;
 	}
 	case 5: {
+		add(13,17);
+		add(154.0,6456.32);
+
 		break;
 	}
 	case 6: {

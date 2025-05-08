@@ -30,3 +30,10 @@ int CalculateSalary(int dailyfee, int days) {
 	return dailyfee * days;
 }
 
+void add(int a, int b) {
+	cout << "a + b = " << a + b << endl;
+}
+void add(double a, double b) {
+	cout << "a + b = " << a + b << endl;
+}
+
