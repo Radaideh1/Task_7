@@ -1,4 +1,4 @@
-#include "Header.h"
+﻿#include "Header.h"
 
 void WelAndPro(int &q) {
 	
@@ -51,6 +51,15 @@ void add(int a, int b) {
 void add(double a, double b) {
 	cout << "a + b = " << a + b << endl;
 }
+
+double area(double base, double height) {
+	return 0.5 * base * height;
+}
+
+double area(double radius) {
+	return π * (radius * radius);
+}
+
 
 
 

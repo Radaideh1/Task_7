@@ -1,5 +1,6 @@
-#include <iostream>
+﻿#include <iostream>
 using namespace std;
+const double π = 3.14159;
 // ==============================
 // ## main things ##
 
@@ -30,8 +31,11 @@ int RecursiveSum(int N);
 // ==============================
 // ## Geometry Calculations ##
 
+// (1 in Geometru Calculations) Area of Triangle 
+double area(double base, double height);
+// (2 in Geometru Calculations) Area of Circle
+double area(double radius);
 
-
-// (6 in Geometru Calculations)Function overloading for sum of ints and doubles 
+// (6 in Geometru Calculations) Function overloading for sum of ints and doubles 
 void add(int a, int b);
 void add(double a,double b);

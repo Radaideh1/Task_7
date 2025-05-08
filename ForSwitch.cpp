@@ -42,9 +42,17 @@ void Switch_qC1(int qC1) {
 void Switch_qC2(int qC2) {
 	switch (qC2) {
 	case 1: {
+		double base, height;
+		cout << "Enter the base and height here : " << endl;
+		cout << "The Base is : "; cin >> base;
+		cout << "The Height is : "; cin >> height;
+		cout << area(base, height);
 		break;
-	}
+	}// case 1 qC2
 	case 2: {
+		double radius;
+		cout << "Enter the radius here : "; cin >> radius;
+		cout << area(radius) << endl;
 		break;
 	}
 	case 3: {
