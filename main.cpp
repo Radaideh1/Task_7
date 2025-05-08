@@ -34,17 +34,18 @@ int main() {
 			cout << "a : "; cin >> a; cout << "b : "; cin >> b;
 			SwapCharacters(a, b);
 			cout << "a now is : " << a << "\nAnd b now is : " << b << endl;
-			break;
+			break;// ea
 		}// case 3
 		case 4: {
 			int dailyFee, days;
 			cout << "Enter the daily Fee for empl and who much day he go to work !!"; cin >> dailyFee >> days;
 			cout << CalculateSalary(dailyFee, days) << endl;
-			break;
+			break;// ea
 		}// case 4
 		case 5: {
-			add(13, 17);
-			add(154.0, 6456.32);
+			int NN;
+			cout << "Enter the end value here : "; cin >> NN;
+			cout << RecursiveSum(NN) << endl;
 			break;
 		}// case 5
 		}// switch qC1

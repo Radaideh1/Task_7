@@ -13,8 +13,8 @@ double CalculateMeth(double base, double exp);
 void SwapCharacters(char& a, char& b);
 // (4 in Math Utilities) Calculate salary with optional days(default = 30)
 int CalculateSalary(int dailyfee, int days = 30);
-
-
+// (5 in Math Utilities) Recursively calculate sum from 1 to N . 
+int RecursiveSum(int N);
 
 
 
