@@ -7,3 +7,11 @@ int CalculateMateh(int num) {
 		return num + CalculateMateh(num-1);
 	
 }
+
+double CalculateMeth(double base, double exp) {
+	int pro = 1;
+	for (int i = 0; i < exp; i++) {
+		pro *= base;
+	}
+	return pro;
+}

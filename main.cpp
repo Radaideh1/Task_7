@@ -14,10 +14,15 @@ int main() {
 
 	switch (q) {
 	case 1: {
-		cout << CalculateMateh(5) << endl;
+		int number;
+		cout << "Enter the number here : "; cin >> number;
+		cout << CalculateMateh(number) << endl;
 		break;
 	}// case 1
 	case 2: {
+		double base, exp;
+		cout << "Enter the Base and exp here : "; cin >> base >> exp;
+		cout << CalculateMeth(base, exp) << endl;
 		break;
 	}
 	case 3: {
