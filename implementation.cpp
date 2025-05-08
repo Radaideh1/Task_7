@@ -1,5 +1,12 @@
 #include "Header.h"
 
+void WelAndPro(int &q) {
+	
+	cout << "\t\t======Welcom======\t\t\n\t\t==================\t\t\n";
+	cout << "Choce What you want for these Operations : \n1- Math Utilities.\n2- Geometry Calculations.\n3- 3D Calculations." << endl;
+	cin >> q;
+}
+
 int CalculateMateh(int num) {
 	if (num == 1)
 		return 1;
@@ -15,7 +22,6 @@ double CalculateMeth(double base, double exp) {
 	}
 	return pro;
 }
-
 
 void SwapCharacters(char& a, char& b) {
 	// a = 3 , b = 5
@@ -33,6 +39,7 @@ int CalculateSalary(int dailyfee, int days) {
 void add(int a, int b) {
 	cout << "a + b = " << a + b << endl;
 }
+
 void add(double a, double b) {
 	cout << "a + b = " << a + b << endl;
 }

@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+void WelAndPro(int &q);
 // ==============================
 // 
 // Factorial Using iteration
