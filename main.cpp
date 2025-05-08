@@ -14,8 +14,9 @@ int main() {
 
 	switch (q) {
 	case 1: {
+		cout << CalculateMateh(5) << endl;
 		break;
-	}
+	}// case 1
 	case 2: {
 		break;
 	}
