@@ -26,6 +26,11 @@ int main() {
 		break;
 	}
 	case 3: {
+		char a, b;
+		cout << "Enter the 2 char here" << endl;
+		cout << "a : "; cin >> a; cout << "b : "; cin >> b;
+		SwapCharacters(a, b);
+		cout << "a now is : " << a << "\nAnd b now is : " << b << endl;
 		break;
 	}
 	case 4: {
