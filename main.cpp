@@ -2,10 +2,11 @@
 
 
 int main() {
+	
 	int q;
-	cin >> q;
 	// Welcome !!
 	WelAndPro(q);
+
 
 	// switch the main 
 	switch (q) {
@@ -19,13 +20,13 @@ int main() {
 			int number;
 			cout << "Enter the number here : "; cin >> number;
 			cout << CalculateMateh(number) << endl;
-			break;
+			break;// ea
 		}// case 1
 		case 2: {
 			double base, exp;
 			cout << "Enter the Base and exp here : "; cin >> base >> exp;
 			cout << CalculateMeth(base, exp) << endl;
-			break;
+			break;// ea
 		}// case 2
 		case 3: {
 			char a, b;
@@ -99,4 +100,4 @@ int main() {
 
 
 	return 0;
-}
+}// for main()

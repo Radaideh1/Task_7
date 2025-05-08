@@ -2,7 +2,7 @@
 
 void WelAndPro(int &q) {
 	
-	cout << "\t\t======Welcom======\t\t\n\t\t==================\t\t\n";
+	cout << "\t\t======Welcom======\t\t\n\t\t==================\t\t\n\n";
 	cout << "Choce What you want for these Operations : \n1- Math Utilities.\n2- Geometry Calculations.\n3- 3D Calculations." << endl;
 	cin >> q;
 }
@@ -43,4 +43,13 @@ void add(int a, int b) {
 void add(double a, double b) {
 	cout << "a + b = " << a + b << endl;
 }
+
+int RecursiveSum(int N) {
+	int sum = 0;
+	for (int i = 1; i <= N; i++) {
+		sum += i;
+	}
+	return sum;
+}
+
 
