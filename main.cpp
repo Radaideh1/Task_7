@@ -34,6 +34,9 @@ int main() {
 		break;
 	}
 	case 4: {
+		int dailyFee, days;
+		cout << "Enter the daily Fee for empl and who much day he go to work !!"; cin >> dailyFee >> days;
+		cout << CalculateSalary(dailyFee, days) << endl;
 		break;
 	}
 	case 5: {

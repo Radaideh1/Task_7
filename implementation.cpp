@@ -25,3 +25,8 @@ void SwapCharacters(char& a, char& b) {
 	
 
 }
+
+int CalculateSalary(int dailyfee, int days) {
+	return dailyfee * days;
+}
+
