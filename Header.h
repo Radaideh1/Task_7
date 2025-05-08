@@ -1,8 +1,19 @@
 #include <iostream>
 using namespace std;
-void WelAndPro(int &q);
 // ==============================
+// ## main things ##
 
+// for print 
+void WelAndPro(int &q);
+
+// ==============================
+// ## switch ## 
+
+void Switch_qC1(int qC1);
+void Switch_qC2(int qC2);
+void Switch_qC3(int qC3);
+
+// ==============================
 // ## Math Utilities ##
 
 // (1 in Math Utilities) Factorial Using iteration
@@ -16,9 +27,10 @@ int CalculateSalary(int dailyfee, int days = 30);
 // (5 in Math Utilities) Recursively calculate sum from 1 to N . 
 int RecursiveSum(int N);
 
-
-
+// ==============================
 // ## Geometry Calculations ##
+
+
 
 // (6 in Geometru Calculations)Function overloading for sum of ints and doubles 
 void add(int a, int b);

@@ -1,0 +1,79 @@
+#include "Header.h"
+
+void Switch_qC1(int qC1) {
+
+	switch (qC1) {
+	case 1: {
+		int number;
+		cout << "Enter the number here : "; cin >> number;
+		cout << CalculateMateh(number) << endl;
+		break;// ea
+	}// case 1
+	case 2: {
+		double base, exp;
+		cout << "Enter the Base and exp here : "; cin >> base >> exp;
+		cout << CalculateMeth(base, exp) << endl;
+		break;// ea
+	}// case 2
+	case 3: {
+		char a, b;
+		cout << "Enter the 2 char here" << endl;
+		cout << "a : "; cin >> a; cout << "b : "; cin >> b;
+		SwapCharacters(a, b);
+		cout << "a now is : " << a << "\nAnd b now is : " << b << endl;
+		break;// ea
+	}// case 3
+	case 4: {
+		int dailyFee, days;
+		cout << "Enter the daily Fee for empl and who much day he go to work !!"; cin >> dailyFee >> days;
+		cout << CalculateSalary(dailyFee, days) << endl;
+		break;// ea
+	}// case 4
+	case 5: {
+		int NN;
+		cout << "Enter the end value here : "; cin >> NN;
+		cout << RecursiveSum(NN) << endl;
+		break;
+	}// case 5
+	}// switch qC1
+}
+
+
+void Switch_qC2(int qC2) {
+	switch (qC2) {
+	case 1: {
+		break;
+	}
+	case 2: {
+		break;
+	}
+	case 3: {
+		break;
+	}
+	case 4: {
+		break;
+	}
+	}// for switch
+
+
+
+}
+
+
+void Switch_qC3(int qC3) {
+
+	switch (qC3) {
+	case 1: {
+		break;
+	}
+	case 2: {
+		break;
+	}
+	case 3: {
+		break;
+	}
+
+	}// for swithc qC3
+}
+
+

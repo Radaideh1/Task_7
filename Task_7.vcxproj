@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ForSwitch.cpp" />
     <ClCompile Include="implementation.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
