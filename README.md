@@ -1,4 +1,3 @@
-```markdown
 # Task 7 - C++ Console Application
 
 ## 💡 Overview
