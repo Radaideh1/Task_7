@@ -40,6 +40,11 @@ double Volume(double radius = 1,double height = 2);
 
 // ==============================
 // ## 3D Calculations ## 
-double ThreeDVolum(int lenght);
+
+// Volume of cube (length^3)
+int ThreeDVolum(int lenght);
+// Volume of pyramid (π* r^2 * h/3)
+double ThreeDVolume(double radius, double height);
+
 
 

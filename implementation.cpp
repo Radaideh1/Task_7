@@ -61,6 +61,10 @@ double Volume(double radius, double height) {
 	return π * radius * 2 * height;
 }
 
-double ThreeDVolum(int lenght) {
+int ThreeDVolum(int lenght) {
 	return (lenght * lenght * lenght);
+}
+
+double ThreeDVolume(double radius, double height) {
+	return π * (radius * radius) * height / 3;
 }

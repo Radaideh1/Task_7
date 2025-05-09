@@ -74,12 +74,17 @@ void Switch_qC3(int qC3) {
 
 	switch (qC3) {
 	case 1: {
-		double lenght;
+		int lenght;
 		cout << "Enter the lenght here : "; cin >> lenght;
 		cout << ThreeDVolum(lenght) << endl;
 		break;
 	}
 	case 2: {
+		double radius, height;
+		cout << "Enter the radius and height here ." << endl;
+		cout << "Radius = "; cin >> radius;
+		cout << "Height = "; cin >> height;
+		cout << ThreeDVolume(radius, height) << endl;
 		break;
 	}
 	case 3: {
