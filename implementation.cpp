@@ -1,4 +1,5 @@
 ﻿#include "Header.h"
+// for print 
 
 void WelAndPro(int &q) {
 	
@@ -6,13 +7,14 @@ void WelAndPro(int &q) {
 	cout << "Choce What you want for these Operations : \n1- Math Utilities.\n2- Geometry Calculations.\n3- 3D Calculations." << endl;
 	cin >> q;
 }
+// ========================================
 
+// ## Math Utilities ##
 int CalculateMateh(int num) {
 	if (num == 1)
 		return 1;
 	else
 		return num + CalculateMateh(num-1);
-	
 }
 
 double CalculateMeth(double base, double exp) {
@@ -44,14 +46,9 @@ int RecursiveSum(int N) {
 	return sum;
 }
 
-void add(int a, int b) {
-	cout << "a + b = " << a + b << endl;
-}
+// ========================================
 
-void add(double a, double b) {
-	cout << "a + b = " << a + b << endl;
-}
-
+// ## Geometry Calculations ##
 double area(double base, double height) {
 	return 0.5 * base * height;
 }
@@ -60,6 +57,14 @@ double area(double radius) {
 	return π * (radius * radius);
 }
 
+double Volume(double radius, double height) {
+	return π * radius * 2 * height;
+}
 
-
-
+//void add(int a, int b) {
+//	cout << "a + b = " << a + b << endl;
+//}
+//
+//void add(double a, double b) {
+//	cout << "a + b = " << a + b << endl;
+//}

@@ -56,9 +56,11 @@ void Switch_qC2(int qC2) {
 		break;
 	}
 	case 3: {
-		break;
-	}
-	case 4: {
+		double radius, height;
+		cout << "Enter the redius and height here : " << endl;
+		cout << "Radius = "; cin >> radius;
+		cout << "Height = "; cin >> height;
+		cout << Volume(radius, height) << endl;
 		break;
 	}
 	}// for switch
