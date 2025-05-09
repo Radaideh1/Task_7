@@ -61,10 +61,6 @@ double Volume(double radius, double height) {
 	return π * radius * 2 * height;
 }
 
-//void add(int a, int b) {
-//	cout << "a + b = " << a + b << endl;
-//}
-//
-//void add(double a, double b) {
-//	cout << "a + b = " << a + b << endl;
-//}
+double ThreeDVolum(int lenght) {
+	return (lenght * lenght * lenght);
+}

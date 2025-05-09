@@ -29,7 +29,7 @@ int main() {
 	case 3: {
 		int qC3;
 		cout << "Welcom to \"3D Calculations\", Select the Operation you want :\
-\n\n1- 3D Volume <Cube>.\n2- Bolume of pyramid.\n3- Calculates all four operation using references."; cin >> qC3;
+\n\n1- 3D Volume of Cube.\n2- Volume of pyramid.\n3- Calculates all four operation using references."; cin >> qC3;
 		Switch_qC3(qC3);
 		break;
 	}//for main case 3

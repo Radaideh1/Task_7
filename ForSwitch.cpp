@@ -74,6 +74,9 @@ void Switch_qC3(int qC3) {
 
 	switch (qC3) {
 	case 1: {
+		double lenght;
+		cout << "Enter the lenght here : "; cin >> lenght;
+		cout << ThreeDVolum(lenght) << endl;
 		break;
 	}
 	case 2: {
