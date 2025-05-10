@@ -88,6 +88,9 @@ void Switch_qC3(int qC3) {
 		break;
 	}
 	case 3: {
+		double a, b, sum, diff, prod, quot;
+		cout << "Enter the number [a] and number [b] here : "; cin >> a >> b;
+		Calculator(a, b, sum, diff, prod, quot);
 		break;
 	}
 

@@ -45,6 +45,8 @@ double Volume(double radius = 1,double height = 2);
 int ThreeDVolum(int lenght);
 // Volume of pyramid (π* r^2 * h/3)
 double ThreeDVolume(double radius, double height);
+// Calculates all four operations using references
+void Calculator(double a, double b, double& sum, double& diff, double& prod, double& quot);
 
 
 

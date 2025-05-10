@@ -68,3 +68,13 @@ int ThreeDVolum(int lenght) {
 double ThreeDVolume(double radius, double height) {
 	return π * (radius * radius) * height / 3;
 }
+
+void Calculator(double a, double b, double& sum, double& diff, double& prod, double& quot) {
+	sum = a + b; 
+	diff = a / b;
+	quot = a - b;
+	prod = a * b;
+	cout << "Sum = " << sum << " ,Diff = " << diff << ", Prod = " << prod << " ,Quot = " << quot;
+	
+}
+
